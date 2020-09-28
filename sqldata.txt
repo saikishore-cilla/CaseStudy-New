@@ -1,0 +1,8 @@
+CREATE DATABASE test;
+USE test;
+CREATE TABLE employeee(EMPLOYEEID int auto_increment primary key,EMPLOYEENAME varchar(20),
+EMPLOYEEADDRESS varchar(30),DATEOFBIRTH date,EXPERIENCE int,DATEOFJOINING date);
+
+
+SELECT *FROM employeee;
+DROP TABLE employeee;
